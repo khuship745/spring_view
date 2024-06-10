@@ -1,34 +1,33 @@
-<!--
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
-
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/guides/libraries/writing-package-pages).
-
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-library-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/developing-packages).
--->
-
+## Spring View
+spring_view: A Flutter package that provides a delightful bounce effect for views, buttons, or widgets. Easily integrate it into your app to add a touch of playfulness!
 
 
 ## Features
+Bounce Effect: Easily add a delightful bounce animation to any view, button, or widget in your Flutter app.
+
+Documentation and Examples: Provide clear documentation and usage examples to help developers get started quickly.
 
 
-
-## Getting started
-
+## Installing
+To use this package, add `spring_view` as a dependency in your `pubspec.yaml` file.
 
 
 ## Usage
 
-
-
 ```dart
-const like = 'sample';
+SpringView(
+child: Center(
+child: Container(
+padding: const EdgeInsets.all(8.0),
+decoration: BoxDecoration(
+color: Colors.cyan,
+borderRadius: BorderRadius.circular(8),
+),
+child: const Text(
+"Spring view example"
+),
+),
+),
+onPressed: (){}
+),
 ```
-
-## Additional information
-
-
