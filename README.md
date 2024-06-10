@@ -16,18 +16,18 @@ To use this package, add `spring_view` as a dependency in your `pubspec.yaml` fi
 
 ```dart
 SpringView(
-child: Center(
-child: Container(
-padding: const EdgeInsets.all(8.0),
-decoration: BoxDecoration(
-color: Colors.cyan,
-borderRadius: BorderRadius.circular(8),
-),
-child: const Text(
-"Spring view example"
-),
-),
-),
-onPressed: (){}
+    child: Center(
+    child: Container(
+      padding: const EdgeInsets.all(8.0),
+        decoration: BoxDecoration(
+            color: Colors.cyan,
+            borderRadius: BorderRadius.circular(8),
+        ),
+    child: const Text(
+        "Spring view example"
+      ),
+    ),
+  ),
+  onPressed: (){}
 ),
 ```
