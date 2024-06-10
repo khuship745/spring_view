@@ -6,8 +6,6 @@ https://github.com/khuship745/spring_view/assets/159103778/873187b2-4319-4f61-9e
 ## Features
 Bounce Effect: Easily add a delightful bounce animation to any view, button, or widget in your Flutter app.
 
-Documentation and Examples: Provide clear documentation and usage examples to help developers get started quickly.
-
 
 ## Installing
 To use this package, add `spring_view` as a dependency in your `pubspec.yaml` file.
