@@ -1,6 +1,6 @@
 name: spring_view
 description: A Flutter package that provides an animated button with a delightful bounce effect. Easily integrate it into your app for a playful touch.
-version: 0.0.5
+version: 0.0.6
 homepage: https://github.com/khuship745/spring_view.git
 
 environment:
