@@ -21,3 +21,7 @@ minor changes
 # 0.0.6
 
 minor changes
+
+# 0.0.7
+
+minor changes

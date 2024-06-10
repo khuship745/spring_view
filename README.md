@@ -1,7 +1,7 @@
 ## Spring View
 spring_view: A Flutter package that provides a delightful bounce effect for views, buttons, or widgets. Easily integrate it into your app to add a touch of playfulness!
 
-<img src = "https://github.com/khuship745/spring_view/assets/spring_view.gif">
+<img src = "https://github.com/khuship745/spring_view/blob/master/assets/spring_view.gif">
 
 ## Features
 Bounce Effect: Easily add a delightful bounce animation to any view, button, or widget in your Flutter app.
