@@ -7,13 +7,15 @@ class SpringView extends StatefulWidget {
 
   // This will get the data from the pages
   // Makes sure child won't be passed as null
-  const SpringView({super.key, required this.child, this.duration, required this.onPressed});
+  const SpringView(
+      {super.key, required this.child, this.duration, required this.onPressed});
 
   @override
   SpringViewState createState() => SpringViewState();
 }
 
-class SpringViewState extends State<SpringView> with SingleTickerProviderStateMixin {
+class SpringViewState extends State<SpringView>
+    with SingleTickerProviderStateMixin {
   late double _scale;
   bool isPressed = false;
   // This controller is responsible for the animation
@@ -24,7 +26,8 @@ class SpringViewState extends State<SpringView> with SingleTickerProviderStateMi
 
   // This is a user defined duration, which will be responsible for
   // what kind of bounce he/she wants
-  Duration get userDuration => widget.duration ?? const Duration(milliseconds: 100);
+  Duration get userDuration =>
+      widget.duration ?? const Duration(milliseconds: 100);
 
   @override
   void initState() {

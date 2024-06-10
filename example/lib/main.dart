@@ -52,8 +52,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   child: const Text(
                     "Spring view example",
                     style: TextStyle(
-                        color: Colors.white, fontWeight: FontWeight.bold
-                    ),
+                        color: Colors.white, fontWeight: FontWeight.bold),
                   ),
                 ),
               ),
@@ -81,14 +80,10 @@ class _MyHomePageState extends State<MyHomePage> {
           ),
           SpringView(
               child: const Center(
-                child: Text(
-                  "Simple text",
-                  style: TextStyle(
-                    fontWeight: FontWeight.bold,
-                    fontSize: 20
-                  ),
-                )
-              ),
+                  child: Text(
+                "Simple text",
+                style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
+              )),
               onPressed: () {}),
           const SizedBox(
             height: 30,
