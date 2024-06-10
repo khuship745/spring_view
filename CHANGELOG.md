@@ -1,3 +1,7 @@
 ## 0.0.1
 
-Modify different button properties.
+Initial release
+
+# 0.0.2
+
+update the package
